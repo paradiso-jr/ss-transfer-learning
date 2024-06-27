@@ -76,6 +76,8 @@ def get_arges():
                         help='pretrain the model.')
     parser.add_argument('--finetune', action='store_true',
                         help='Whether to train classification.')
+    parser.add_argument('--eval', action='store_true',
+                            help='Whether to evaluate the model.')
     
     args = parser.parse_args()
     
@@ -100,23 +102,24 @@ def main():
         train.pretrain(train_dataloader, args)
 
     if args.finetune:
-        dataset = SleepEDFDataset(args.data, )
-        train_idx, val_idx= train_test_split(np.arange(len(dataset.labels)), 
-                                        test_size=args.batch_size, 
-                                        random_state=42, 
-                                        shuffle=True, 
-                                        stratify=dataset.labels)
-        train_dataset = Subset(dataset, train_idx)
-        val_dataset = Subset(dataset, val_idx)
-
+        train_dataset = SleepEDFDataset(args.data, )
+        val_dataset = SleepEDFDataset("dset/EEG/new_test_concat_data.npz")
         train_dataloader = DataLoader(train_dataset, 
                                     batch_size=args.batch_size,
                                     num_workers=args.workers,
                                     shuffle=True,)
         val_dataloader = DataLoader(val_dataset, 
-                                    batch_size=args.batch_size,
+                                    batch_size=100,
                                     num_workers=args.workers,
-                                    shuffle=False,)
+                                    shuffle=True,)
         train.finetune(train_dataloader, val_dataloader, args)
+
+    if args.eval:
+        test_dataset = SleepEDFDataset(args.data)
+        test_dataloader = DataLoader(test_dataset, 
+                                batch_size=900,
+                                num_workers=args.workers,
+                                shuffle=False,)
+        train.evaluate(test_dataloader, args)
 if __name__ == '__main__':
     main()

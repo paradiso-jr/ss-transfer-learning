@@ -30,21 +30,33 @@ class TimeSeriesCnnEmbedding(nn.Module):
                 embedding_dim, 
                 beta):
         super(TimeSeriesCnnEmbedding, self).__init__()
-        kernel = 64
-        stride = 2
+        kernel = 4
+        stride = 1
+        maxpooling_size = 3
+        avgpooling_size = 3
         self.cnn_stack = nn.Sequential(
-            nn.Conv1d(in_channel, h_dim // 4, kernel_size=kernel, stride=stride),
+            nn.Conv1d(in_channel, h_dim // 8, kernel_size=kernel, stride=stride),
+            nn.BatchNorm1d(h_dim // 8),
+            nn.PReLU(),
+            nn.AvgPool1d(avgpooling_size),
+            
+            nn.Conv1d(h_dim // 8, h_dim // 4, kernel_size=kernel, stride=stride),
             nn.BatchNorm1d(h_dim // 4),
             nn.PReLU(),
+            #nn.MaxPool1d(maxpooling_size),
+            nn.AvgPool1d(avgpooling_size),
+
             nn.Conv1d(h_dim // 4, h_dim // 2, kernel_size=kernel, stride=stride),
             nn.BatchNorm1d(h_dim // 2),
             nn.PReLU(),
+            #nn.MaxPool1d(maxpooling_size),
+            nn.AvgPool1d(2),
+
             nn.Conv1d(h_dim // 2, h_dim, kernel_size=kernel, stride=stride),
             nn.BatchNorm1d(h_dim),
             nn.PReLU(),
-            nn.Conv1d(h_dim, h_dim, kernel_size=kernel, stride=stride),
-            nn.BatchNorm1d(h_dim),
-            nn.PReLU(),
+            #nn.MaxPool1d(maxpooling_size),
+            #ResidualStack(h_dim, h_dim, h_dim, 3)
         )
         self.quantizer = VectorQuantizer(vocab_size, 
                                         embedding_dim, 

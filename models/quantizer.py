@@ -20,7 +20,7 @@ class VectorQuantizer(nn.Module):
         self.vocab_size = vocab_size
         self.embedding_dim = embedding_dim
         self.beta = beta
-        self.embedding = nn.Embedding(self.vocab_size, self.embedding_dim, _freeze=True)
+        self.embedding = nn.Embedding(self.vocab_size, self.embedding_dim, _freeze=False)
         self.embedding.weight.data.uniform_(-1.0 / self.vocab_size, 1.0 / self.vocab_size)
         # self.embedding.weight.data.uniform_(-1.0, 1.0)
     def forward(self, z):

@@ -31,7 +31,9 @@ class SleepEDFDataset(Dataset):
     def __len__(self):
         """ Return the number of time series samples."""
         return len(self.time_series)
-
+    def get_labels(self):
+        return self.labels  
+        
     def __getitem__(self, index):
         """Return one sample of time series and its corresponding labels."""
         time_series = self.time_series[index]

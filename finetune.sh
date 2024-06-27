@@ -1,18 +1,19 @@
 nohup python ./main.py \
                 --data ./dset/EEG/train_concat_data.npz \
-                -b 256 \
+                --ckpt /home/work/wujiarong/thesis/ss-vqvae-bert/runs/Jun26_13-25-27_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune/checkpoint_finetuned.pth.tar \
+                -b 48 \
                 --workers 0 \
-                -wd 1e-5 \
+                -wd 1e-3 \
                 --warmup 0 \
-                --gpu-index 3 \
+                --gpu-index 6 \
                 --device 'cuda' \
                 --fp16precision \
-                --finetune_epochs 10 \
+                --finetune_epochs 15 \
                 --finetune_lr 2e-5 \
                 --in_channel 1 \
                 --h_dim 256 \
-                --vocab_size 10000 \
+                --vocab_size 9000 \
                 --beta 0.5 \
                 --dropout 0.1 \
                 --n_labels 5 \
-                --finetune &>./logs/finetune.log &
+                --finetune &>>./logs/finetune.log &

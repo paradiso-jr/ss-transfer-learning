@@ -28,3 +28,16 @@ def accuracy(output, target, topk=(1,)):
             correct_k = correct[:k].reshape(-1).float().sum(0, keepdim=True)
             res.append(correct_k.mul_(100.0 / batch_size))
         return res
+
+def calculate_accuracy_per_label(predicted_labels, ground_truth):
+    num_classes = len(torch.unique(ground_truth))
+    correct_counts = torch.zeros(num_classes, dtype=torch.int32)
+    total_counts = torch.zeros(num_classes, dtype=torch.int32)
+    
+    for label in range(num_classes):
+        mask = (ground_truth == label)
+        correct_counts[label] = (predicted_labels[mask] == ground_truth[mask]).sum().item()
+        total_counts[label] = mask.sum().item()
+    
+    accuracies = correct_counts.float() / total_counts.float()
+    return accuracies

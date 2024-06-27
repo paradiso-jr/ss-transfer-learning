@@ -17,12 +17,12 @@ class ResidualLayer(nn.Module):
     def __init__(self, in_dim, out_dim, res_h_dim):
         super(ResidualLayer, self).__init__()
         self.res_block = nn.Sequential(
-            nn.RNN(in_dim, res_h_dim, num_layers=4, batch_first=True),
-            extract_tensor(),
-            nn.ReLU(),
-            nn.RNN(res_h_dim, out_dim, num_layers=4, batch_first=True),
-            extract_tensor(),
-            nn.ReLU(),
+            nn.Conv1d(in_dim, res_h_dim, kernel_size=1, stride=1),
+            nn.BatchNorm1d(res_h_dim),
+            nn.PReLU(),
+            nn.Conv1d(res_h_dim, out_dim, kernel_size=1, stride=1),
+            nn.BatchNorm1d(out_dim),
+            nn.PReLU(),
         )
 
     def forward(self, x):
@@ -39,16 +39,15 @@ class ResidualStack(nn.Module):
     - n_res_layers : number of layers to stack
     """
 
-    def __init__(self, in_dim, h_dim, res_h_dim, n_res_layers):
+    def __init__(self, in_dim, out_dim, res_h_dim, n_res_layers):
         super(ResidualStack, self).__init__()
         self.n_res_layers = n_res_layers
         self.stack = nn.ModuleList(
-            [ResidualLayer(in_dim, h_dim, res_h_dim)]*n_res_layers)
+            [ResidualLayer(in_dim, out_dim, res_h_dim)]*n_res_layers)
 
     def forward(self, x):
         for layer in self.stack:
             x = layer(x)
-        x = F.relu(x)
         return x
 
 class extract_tensor(nn.Module):

